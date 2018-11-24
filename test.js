@@ -6,7 +6,7 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-  if (message.content === 'سلام عليكم') {
+  if (message.content === ('سلام عليكم') {
     message.channel.send('وعليكم السلام!');
   }
 
