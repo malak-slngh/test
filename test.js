@@ -6,7 +6,7 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-  if (message.content === ('سلام عليكم') {
+  if (message.content === 'سلام عليكم') {
     message.channel.send('وعليكم السلام!');
   }
 
@@ -61,4 +61,16 @@ client.on('message', message => {
 
 }); 
 
-client.login('NTE1NzExMjA4MTU4OTIwNzA2.DtpFSw.Ds16bGkhLIemCrnccnyOBco0mko');
+
+
+
+
+
+
+
+
+
+
+
+
+client.login(process.env.BOT_TOKEN);
